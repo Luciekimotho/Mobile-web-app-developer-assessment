@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+[PatientsFragment.java](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/java/com/luciekimotho/intellisoft/PatientsFragment.java)
+
+[MainActivity.java](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/java/com/luciekimotho/intellisoft/MainActivity.java)
+
 ### 3. How would you create a multi-threaded Android app without using the Thread class?
 Show using code examples.
 
@@ -69,7 +73,7 @@ Debug is the build type that is used when we run the application from the IDE di
 
 </manifest>
 ```
-
+[AndroidManifest.xml with Camera & Internet permissions](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/AndroidManifest.xml)
 ### 7. Create a registration form that collects patient demographics (Names, Contacts, address and Next of kin details) and temporarily store it in the device.
 [Code for Patients demographic java class](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/java/com/luciekimotho/intellisoft/PatientsActivity.java)
 
