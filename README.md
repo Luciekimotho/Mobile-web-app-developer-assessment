@@ -71,6 +71,9 @@ Debug is the build type that is used when we run the application from the IDE di
 ```
 
 ### 7. Create a registration form that collects patient demographics (Names, Contacts, address and Next of kin details) and temporarily store it in the device.
+[Code for Patients demographic java class](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/java/com/luciekimotho/intellisoft/PatientsActivity.java)
+
+[Code for Patients demographic XML](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/res/layout/activity_patients.xml)
 
 ### 8. Create a proper mapped json file with the patient data in 7 above
 
