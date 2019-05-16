@@ -52,9 +52,9 @@ public class PatientsActivity extends AppCompatActivity {
                     File file = File.createTempFile(fileName, null, getCacheDir());
                     FileOutputStream outputStream = new FileOutputStream(file);
                     outputStream.write(name.getBytes());
-//                    outputStream.write(contact.getBytes());
-//                    outputStream.write(address.getBytes());
-//                    outputStream.write(nextOfKin.getBytes());
+                    outputStream.write(contact.getBytes());
+                    outputStream.write(address.getBytes());
+                    outputStream.write(nextOfKin.getBytes());
                     outputStream.flush();
                     outputStream.close();
                     Log.d("Patients", file.toString());
