@@ -148,8 +148,7 @@ More form attributes such as validation using the required attribute:
   </form>
 ```
 
-### 13. How do you structure your CSS and JavaScript to make it easier for other developers to work with and access it in multiple files and projects? Show using sample files and
-Structures.
+### 13. How do you structure your CSS and JavaScript to make it easier for other developers to work with and access it in multiple files and projects? Show using sample files and Structures.
 Organizing the CSS and JS files with well commented sections for the different components. 
 A hierarchical structure inline with how the components are used in the HTML file for example, starting with the header components, then the body components and finally the footer elements or having a key as to how the components are arranged in the stylesheet. 
 ```
@@ -213,6 +212,5 @@ I regularly read blogs and publications such on Medium and Flipboard such as the
 
 I also visit CSS awards sites such as: https://www.cssdesignawards.com, https://www.awwwards.com and design portfolios to find out what other designers are working on and try to borrow some concepts in my own design.
 
-### 15. Using angularJS or reactJS demonstrate Model View Controller framework. Use code
-examples where necessary.
+### 15. Using angularJS or reactJS demonstrate Model View Controller framework. Use code examples where necessary.
 
