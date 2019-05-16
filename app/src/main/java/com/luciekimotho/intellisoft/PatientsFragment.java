@@ -71,14 +71,13 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
                     outputStream.flush();
                     outputStream.close();
                     Log.d("Patients", file.toString());
-                    Intent i = new Intent(getActivity(), NextActivity.class);
+                    Intent i = new Intent(getActivity(), PatientsActivity.class);
                     startActivity(i);
 
 
                 } catch (IOException e) {
                     Log.d("Patients", e.getMessage());
                 }
-
             }
         });
 

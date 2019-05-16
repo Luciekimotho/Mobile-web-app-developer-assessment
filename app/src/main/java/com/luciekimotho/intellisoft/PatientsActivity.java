@@ -7,8 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedWriter;
+import java.io.Console;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class PatientsActivity extends AppCompatActivity {
@@ -52,12 +59,38 @@ public class PatientsActivity extends AppCompatActivity {
                     outputStream.close();
                     Log.d("Patients", file.toString());
 
-
-
                 } catch (IOException e) {
                     Log.d("Patients", e.getMessage());
                 }
 
+                JSONObject jsonObj = new JSONObject();
+                try {
+                    jsonObj.put("Name", name);
+                    jsonObj.put("Contact", contact);
+                    jsonObj.put("address", address);
+                    jsonObj.put("nextOfKin", nextOfKin);
+                    Log.d("Patients", jsonObj.toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                String fileName2 = "Jsonfile";
+                File jsonFile = new File(getFilesDir(), fileName2);
+                FileWriter fileWriter = null;
+                BufferedWriter bufferedWriter = null;
+                FileReader fileReader = null;
+
+                if (!jsonFile.exists()){
+                    try {
+                        jsonFile.createNewFile();
+                        fileWriter = new FileWriter(jsonFile.getAbsoluteFile());
+                        bufferedWriter = new BufferedWriter(fileWriter);
+                        bufferedWriter.write("{}");
+                        bufferedWriter.close();
+                    }catch (IOException e){
+                        e.printStackTrace();
+                    }
+                }
 
             }
         });
