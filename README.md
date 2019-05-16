@@ -80,6 +80,7 @@ Debug is the build type that is used when we run the application from the IDE di
 [Code for Patients demographic XML](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/res/layout/activity_patients.xml)
 
 ### 8. Create a proper mapped json file with the patient data in 7 above
+[Code for creating the JSON file](https://github.com/Luciekimotho/Mobile-web-app-developer-assessment/blob/master/app/src/main/java/com/luciekimotho/intellisoft/PatientsActivity.java)
 
 ### 9. Enable searching through the patient list using patient name.
 
